@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 else
                 {
                     am_pm= "pm";
+                    //if(hour <12) hour -=12;
 
                     if(hour == 12){
                         hour = 12;
